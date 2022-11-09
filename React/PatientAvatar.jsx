@@ -4,7 +4,6 @@ import Avatar from "react-avatar-edit";
 import defaultAvatar from "../../assets/images/avatar/avatarDefault.jpg";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import debug from "sabio-debug";
 import fileServices from "services/fileService";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
