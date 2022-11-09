@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Formik, Field, Form, ErrorMessage, FieldArray } from "formik";
 import FileUpload from "components/fileUpload/FileUpload";
-import debug from "sabio-debug";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { horseFormSchema } from "schemas/horseFormSchema";
 import "../../toastr/build/toastr.css";
